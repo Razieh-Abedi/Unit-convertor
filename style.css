@@ -3,6 +3,9 @@
   font-size: 17pt;
 
 } */
+body {
+  font-family: "Courier New", Courier, monospace;
+}
 .result-arrow2 {
   cursor: pointer;
   font-size: 17pt;
