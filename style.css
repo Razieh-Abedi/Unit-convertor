@@ -3,9 +3,9 @@
   font-size: 17pt;
 
 } */
-body {
+/* body {
   font-family: "Courier New", Courier, monospace;
-}
+} */
 .result-arrow2 {
   cursor: pointer;
   font-size: 17pt;
@@ -17,4 +17,14 @@ select {
   width: 190px;
   text-align: center;
   height: 30px;
+}
+/* Footer */
+.footer-site-credit {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-top: 9rem;
+  margin: auto;
+  display: block;
+  width: 50%;
 }

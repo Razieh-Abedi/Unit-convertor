@@ -11,14 +11,13 @@
 /////************multi convertor************/
 
 document.querySelector(".result-arrow2").addEventListener("click", () => {
-  console.log("hello");
   let resultLeft = document.getElementById("result-text-left");
   let resultRight = document.getElementById("result-text-right");
   let americanUnit = document.getElementById("american-input");
   let worldUnit = document.getElementById("world-input");
   let optionFrom = americanUnit.value;
   let optionTo = worldUnit.value;
-  
+
   let inchToCentimeter = resultLeft.value * 2.54;
   let centimeterToInch = resultRight.value / 2.54;
   let footToMeter = resultLeft.value / 3.28;
